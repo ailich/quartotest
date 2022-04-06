@@ -1,0 +1,13 @@
+---
+title: "test"
+format: html
+editor: visual
+---
+
+I can reference @fig-elephantpic manually
+
+![Elephant](crossref-figure.png){#fig-elephantpic}
+
+but not with visual editor via insert \> cross reference as it does not show up in the list of available options.
+
+![](noccrossrefs.png)
