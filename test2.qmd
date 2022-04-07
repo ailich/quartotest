@@ -1,0 +1,20 @@
+---
+title: "test2"
+format: html
+editor: visual
+bibliography: references.bib
+csl: nature.csl
+---
+
+# Introduction
+
+Tidy data is handy [@wickham_tidy_2014].
+
+# References
+
+::: {#refs}
+:::
+
+# Another Section
+
+This should be after the references
