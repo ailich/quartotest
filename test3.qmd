@@ -1,0 +1,28 @@
+---
+title: "test3"
+format: pdf
+editor: visual
+bibliography: references.bib
+csl: elsevier-harvard.csl
+---
+
+# Section 1
+
+This is an an elephant that somehow relates to tidy data (@fig-elephant) [@wickham_tidy_2014] and some equations about a circle ([Equations @eq-area] - [-@eq-circumference]).
+
+This is an an elephant that somehow relates to tidy data (@fig-elephant)[@wickham_tidy_2014].
+
+![An elephant](crossref-figure.png){#fig-elephant}
+
+$$
+{\text{Area} = {\pi}r^2}
+$$ {#eq-area}
+
+$$
+{\text{Circumference} = {\pi}D}
+$$ {#eq-circumference}
+
+# References
+
+::: {#refs}
+:::
